@@ -17,7 +17,7 @@ const Posts = () => (
           <GridItem
             title="How did i setup my Website"
             thumbnail={website}
-            href="https://melboucirayane.com"
+            href="https://melboucierayane.com"
           />
         </SimpleGrid>
       </Section>
