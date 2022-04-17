@@ -121,7 +121,7 @@ const Page = () => {
             </List>
 
             <SimpleGrid columns={[1,2,2]} gap={6}>
-                <GridItem href="https://www.youtube.com/watch?v=bSMZgXzC9AA&t=21s" title="My best Playlist to study/Work" thumbnail={thumbYoutube}></GridItem>
+                <GridItem href="https://www.youtube.com/watch?v=5qap5aO4i9A" title="My best Playlist to study/Work" thumbnail={thumbYoutube}></GridItem>
             </SimpleGrid>
         </Section>
         
