@@ -15,7 +15,7 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How did i setup my Website"
+            title="The Set up of the Website"
             thumbnail={website}
             href="https://melboucierayane.com"
           />
