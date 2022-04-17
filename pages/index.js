@@ -34,15 +34,11 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
             <Heading as ="h3" variant="section-title">
-                Work
+               Who am I?
             </Heading>
             <Paragraph>
             Rayane is an IT Support based in Montreal with a passion for IT and new future technologies! He has an ease with technology allowing him to always 
-            move forward and learn and discover new things, such as programming languages, cybersecurity and network infrastructure.{' '}
-          <NextLink href="/works/Portfolio" scroll={false}>
-            <Link>Portfolio</Link>
-          </NextLink>
-          .
+            move forward and learn and discover new things, such as programming languages, cybersecurity and network infrastructure.
         </Paragraph>
 
         <Box align="center" my={4}>
@@ -90,12 +86,12 @@ const Page = () => {
           Art, Music,
             Mangas,
             Photography
-          , Football, Machine Learning
+          , Football, Movies
         </Paragraph>
       </Section>
         <Section delay={0.3}>
             <Heading as="h3" variant="section-title">
-                On the Web
+                My social networks
             </Heading> 
             <List>
                 <ListItem>
