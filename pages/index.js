@@ -122,7 +122,6 @@ const Page = () => {
 
             <SimpleGrid columns={[1,2,2]} gap={6}>
                 <GridItem href="https://www.youtube.com/watch?v=bSMZgXzC9AA&t=21s" title="My best Playlist to study/Work" thumbnail={thumbYoutube}></GridItem>
-                <GridItem href="https://www.craftz.dog/" title="Craftzdog" thumbnail={thumbcraft}></GridItem>
             </SimpleGrid>
         </Section>
         
