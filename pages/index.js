@@ -13,6 +13,7 @@ import {
 } from 'react-icons/io5'
 import thumbYoutube from '../public/images/links/youtube.jpg'
 import Footer from '../components/footer.js'
+import thumbcraft from '../public/images/links/craftzdog.jpg'
 
 const Page = () => {
     return (<Container>
@@ -121,6 +122,7 @@ const Page = () => {
 
             <SimpleGrid columns={[1,2,2]} gap={6}>
                 <GridItem href="https://www.youtube.com/watch?v=bSMZgXzC9AA&t=21s" title="My best Playlist to study/Work" thumbnail={thumbYoutube}></GridItem>
+                <GridItem href="https://www.craftz.dog/" title="Craftzdog" thumbnail={thumbcraft}></GridItem>
             </SimpleGrid>
         </Section>
         
