@@ -72,7 +72,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>
-                Work at CN Investment Division at It Support
+                Work at CN Investment Division as It Support
             </BioSection>
             <BioSection>
                 <BioYear>2022 - In progress..</BioYear>
