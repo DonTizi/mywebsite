@@ -15,9 +15,9 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="The Set up of the Website"
+            title="How I'll start my NFT Project"
             thumbnail={website}
-            href="https://melboucierayane.com"
+            
           />
         </SimpleGrid>
       </Section>
