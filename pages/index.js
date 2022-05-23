@@ -110,7 +110,7 @@ const Page = () => {
                     </Link>
                 </ListItem>
                 <ListItem>
-                    <Link href='https://www.instagram.com/rayanemeldz' target="_blank">
+                    <Link href='https://discordapp.com/users/RaykageDz#0683' target="_blank">
                         <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoDiscord}/>}>@RayaneMeldz </Button>
                     </Link>
                 </ListItem>
