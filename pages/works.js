@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Website from '../public/images/works/website.jpg'
+import NFT from '../public/images/works/nft.jpg'
 
 
 const Works = () => (
@@ -21,7 +22,15 @@ const Works = () => (
         </Section>
 
 
+        <Section delay={0.1}>
+          <WorkGridItem id="NFT" thumbnail={NFT} title="My NFT project">
+              A futur AI Nft project, with the uses of open sources engines.
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
+
+
 
     </Container>
   </Layout>
