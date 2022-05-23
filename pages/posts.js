@@ -16,7 +16,7 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How I'll start my NFT Project"
-            thumbnail={website}
+            thumbnail={Nftpost}
             
           />
         </SimpleGrid>
