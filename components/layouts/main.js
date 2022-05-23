@@ -11,6 +11,29 @@ const Main = ({ children, router}) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="icon" href="emorayane.png" />
                 <title>Melbouci Elyes Rayane Homepage</title>
+    <meta
+      name="description"
+      content="My Personnal Website made with Three JS React JS and more."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Melbouci Elyes Rayane"
+    />
+    <meta
+      property="og:description"
+      content="IT Support, DEV3, Developper and more..."
+    />
+    <meta
+      property="og:image"
+      content="../layouts/website.jpg"
+    />
+    <meta property="og:url" content="www.melboucierayane.com/" />
+    <meta
+      property="og:site_name"
+      content="Melbouci Elyes Rayane - IT&DEV"
+    />
             </Head>
             <Navbar path ={router.asPath}/>
             <Container maxW="container.md" pt={14}>
