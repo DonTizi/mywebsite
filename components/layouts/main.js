@@ -27,7 +27,7 @@ const Main = ({ children, router}) => {
     />
     <meta
       property="og:image"
-      content="../layouts/website.jpg"
+      content="../layouts/website.png"
     />
     <meta property="og:url" content="www.melboucierayane.com/" />
     <meta
