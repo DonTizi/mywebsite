@@ -11,7 +11,8 @@ const Work = () => (
         My Website Portfolio <Badge>2022</Badge>
       </Title>
       <P>
-        My Portfolio - Curriculum Vitae Website, to See every projects and work I'll do!
+        My Portfolio - Curriculum Vitae Website, to See every projects and work I'll do! Inspired by <Link href="https://github.com/craftzdog/craftzdog-homepage">Takuya Matsuyama
+</Link>!
       </P>
       <List ml={4} my={4}>
         <ListItem>
