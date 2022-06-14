@@ -92,9 +92,9 @@ const Navbar = props => {
             Source
           </LinkItem>
 
-           <LinkItem href="/token" path={path}>
-            <Icon as={FaCoins} />
+          <LinkItem href="/token" path={path}>
             ERM's Tokens
+            <Icon as={FaCoins}/>
           </LinkItem>
         </Stack>
 
