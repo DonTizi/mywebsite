@@ -79,7 +79,20 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="/token" path={path}>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/RayaneMelDz"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Source
+          </LinkItem>
+
+           <LinkItem href="/token" path={path}>
             <Icon as={FaCoins} />
             ERM's Tokens
           </LinkItem>
