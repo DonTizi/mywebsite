@@ -10,3 +10,9 @@ export const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
 `
+
+export const BioToken = styled(Box)`
+  padding-left: 0em;
+  padding-right: 4em;
+  text-indent: -3.4em;
+`
