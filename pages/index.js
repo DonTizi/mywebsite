@@ -18,7 +18,7 @@ import thumbcraft from '../public/images/links/craftzdog.jpg'
 const Page = () => {
     return (<Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-            Hello, I'm an It Support based in Montreal!
+            Hello, I'm an IT Support based in Montreal!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -26,7 +26,7 @@ const Page = () => {
                 <Heading as="h2" variant='page-title'>
                     Melbouci E. Rayane
                 </Heading>
-            <p>IT Support(IT / Developper / Designer)</p>
+            <p>IT Support( IT / Developper / Designer)</p>
             </Box>
            <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md: 6}} align="center">
                <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/rayane.jpg" alt="Profile Image"/>
