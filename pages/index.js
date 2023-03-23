@@ -37,8 +37,8 @@ const Page = () => {
                Who am I?
             </Heading>
             <Paragraph>
-            Rayane is an IT Support based in Montreal with a passion for IT and new future technologies! He has an ease with technology allowing him to always 
-            move forward and learn and discover new things, such as programming languages, cybersecurity and network infrastructure.
+Rayane is an IT Support Specialist located in Montreal, possessing a fervent interest in information technology and emerging advancements. His innate aptitude for technology enables him to continuously progress, learn, and explore various aspects of the field. 
+               His areas of expertise include programming languages, cybersecurity, and network infrastructure.
         </Paragraph>
 
         <Box align="center" my={4}>
