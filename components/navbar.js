@@ -126,9 +126,6 @@ const Navbar = props => {
                 >
                   View Source
                 </MenuItem>
-                <NextLink href="/token" passHref>
-                  <MenuItem as={Link}>ERM's Token</MenuItem>
-                </NextLink>
               </MenuList>
             </Menu>
           </Box>
