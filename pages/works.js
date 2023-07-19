@@ -22,9 +22,9 @@ const Works = () => (
         </Section>
 
 
-        <Section delay={0.1}>
-          <WorkGridItem id="NFT" thumbnail={NFT} title="My NFT project">
-              A futur AI Nft project, with the uses of open sources engines.
+       <Section delay={0.1}>
+          <WorkGridItem id="NFT" thumbnail={NFT} title="My AI assistant.">
+          My esteemed Virtual AI Assistant, adept at answering inquiries about my personality, professional career, and education.
           </WorkGridItem>
         </Section>
 
