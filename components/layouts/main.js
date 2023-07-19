@@ -8,6 +8,8 @@ const Main = ({ children, router}) => {
     return (
         <Box as="main" pb = {8}>
             <Head>
+                    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/1c1f40f2-534d-4e3c-8f4f-bc1b45da32b0/webchat/config.js" defer></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="icon" href="emorayane.png" />
                 <title>Melbouci Elyes Rayane Homepage</title>
