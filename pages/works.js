@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Website from '../public/images/works/website.jpg'
-import NFT from '../public/images/works/nft.jpg'
+import NFT from '../public/images/works/ai.jpg'
 
 
 const Works = () => (
