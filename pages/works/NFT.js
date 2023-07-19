@@ -5,20 +5,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="NFT">
+  <Layout title="C-01">
     <Container>
       <Title>
-        My NFT Project <Badge>2022</Badge>
+        C-01 <Badge>2023</Badge>
       </Title>
       <P>
-            My NFT project, made with Open-sources engines. Hash Lips Engine to make efficient smarts contracts
-            with Solidity and JS, and BMN Engine to create my 3D collection in Blenders.
+      My esteemed Virtual AI Assistant, adept at answering inquiries about my personality, professional career, and education.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>In coming...</Meta>
           <Link>
-          Will be public in the nexts weeks... <ExternalLinkIcon mx="2px" />
+          version 0.3 of C-01 is on production. <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -27,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Three JS, React Native, Solidity, Blenders, EtherScan, Ganache.</span>
+          <span>NodeJS, Three JS, React Native, BotPress, META.</span>
         </ListItem>
       </List>
 
