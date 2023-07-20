@@ -4,7 +4,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Website from '../public/images/works/website.jpg'
-import NFT from '../public/images/works/ai.jpg'
+import ai from '../public/images/works/ai.jpg'
+import farahai from '../public/images/works/farahai.jpg'
 
 
 const Works = () => (
@@ -22,12 +23,18 @@ const Works = () => (
         </Section>
 
 
-       <Section delay={0.1}>
-          <WorkGridItem id="NFT" thumbnail={NFT} title="My AI assistant.">
+        <Section delay={0.1}>
+          <WorkGridItem id="NFT" thumbnail={ai} title="My AI assistant.">
           My esteemed Virtual AI Assistant, adept at answering inquiries about my personality, professional career, and education.
           </WorkGridItem>
         </Section>
 
+
+        <Section delay={0.1}>
+          <WorkGridItem id="FarahAI" thumbnail={farahai} title="Mortgage AI.">
+          FarahAI: Your Mortgage Virtual AI Agent.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
 
 
