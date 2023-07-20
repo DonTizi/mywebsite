@@ -31,7 +31,7 @@ const Works = () => (
 
 
         <Section delay={0.1}>
-          <WorkGridItem id="FarahAI" thumbnail={farahai} title="Mortgage AI.">
+          <WorkGridItem id="farahAI" thumbnail={farahai} title="Mortgage AI.">
           FarahAI: Your Mortgage Virtual AI Agent.
           </WorkGridItem>
         </Section>
