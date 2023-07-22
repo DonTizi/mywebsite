@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import Website from '../public/images/works/website.jpg'
 import ai from '../public/images/works/ai.jpg'
-import farahai from '../public/images/works/farahai.jpg'
+import farahai from '../public/images/works/EvaAI.jpg'
 
 
 const Works = () => (
@@ -31,8 +31,8 @@ const Works = () => (
 
 
         <Section delay={0.1}>
-          <WorkGridItem id="farahAI" thumbnail={farahai} title="Mortgage AI.">
-          FarahAI: Your Mortgage Virtual AI Agent.
+          <WorkGridItem id="EvaAI" thumbnail={farahai} title="Mortgage AI.">
+          EvaAI: Your Mortgage Virtual AI Agent.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
