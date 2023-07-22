@@ -5,13 +5,13 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="FarahAI">
+  <Layout title="EvaAI">
     <Container>
       <Title>
         FarahAI <Badge>2023</Badge>
       </Title>
       <P>
-      FarahAI: Your Mortgage Virtual AI Agent - Unlocking Mortgage Knowledge and Answers at Your Fingertips!
+      EvaAI: Your Mortgage Virtual AI Agent - Unlocking Mortgage Knowledge and Answers at Your Fingertips!
       </P>
       <List ml={4} my={4}>
         <ListItem>
