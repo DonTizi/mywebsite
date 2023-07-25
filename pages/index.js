@@ -117,7 +117,7 @@ Rayane is an IT Support Specialist located in Montreal, possessing a fervent int
             </List>
 
             <SimpleGrid columns={[1,2,2]} gap={6}>
-                <GridItem href="https://www.youtube.com/watch?v=5qap5aO4i9A" title="My best Playlist to study/Work" thumbnail={thumbYoutube}></GridItem>
+                <GridItem href="https://www.youtube.com/watch?v=5qap5aO4i9A" title="Calming instrumental study/work playlist." thumbnail={thumbYoutube}></GridItem>
             </SimpleGrid>
         </Section>
         
