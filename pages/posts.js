@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import Nftpost from '../public/images/works/eva.jpg'
+import Nftpost from '../public/images/works/Eva.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
