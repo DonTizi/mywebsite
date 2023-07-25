@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import Nftpost from '../public/images/works/nftpost.jpg'
+import Nftpost from '../public/images/works/eva.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -15,7 +15,7 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How I'll start my NFT Project"
+            title="In coming..."
             thumbnail={Nftpost}
             
           />
