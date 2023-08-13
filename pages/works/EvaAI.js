@@ -5,18 +5,18 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="EvaAI">
+  <Layout title="MigrAI">
     <Container>
       <Title>
-        FarahAI <Badge>2023</Badge>
+        MigrAI <Badge>2023</Badge>
       </Title>
       <P>
-      EvaAI: Your Mortgage Virtual AI Agent - Unlocking Mortgage Knowledge and Answers at Your Fingertips!
+      MigrAI: Your Canadian Immigration solver.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>In production.</Meta>
-          <Link href="https://www.evahyp.com/">>
+          <Link href="https://www.imigrai.ca/">>
           Version 1.0.0 <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Three JS, React Native, BotPress, META.</span>
+          <span>NodeJS, Typescript, React Native, BotPress, OpenAI, Tailwind.</span>
         </ListItem>
       </List>
 
