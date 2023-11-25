@@ -95,12 +95,12 @@ Rayane is an IT Support Specialist located in Montreal, possessing a fervent int
             </Heading> 
             <List>
                 <ListItem>
-                    <Link href='https://github.com/rayanemeldz' target="_blank">
+                    <Link href='https://github.com/DonTizi' target="_blank">
                         <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoGithub}/>}>@RayaneMeldz </Button>
                     </Link>
                 </ListItem>
                 <ListItem>
-                    <Link href='https://twitter.com/Lemelbz' target="_blank">
+                    <Link href='https://twitter.com/E_melbou' target="_blank">
                         <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>@LeMelBz </Button>
                     </Link>
                 </ListItem>
