@@ -96,29 +96,17 @@ Rayane is an IT Support Specialist located in Montreal, possessing a fervent int
             <List>
                 <ListItem>
                     <Link href='https://github.com/DonTizi' target="_blank">
-                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoGithub}/>}>@RayaneMeldz </Button>
+                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoGithub}/>}>@DonTizi </Button>
                     </Link>
                 </ListItem>
                 <ListItem>
                     <Link href='https://twitter.com/E_melbou' target="_blank">
-                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>@LeMelBz </Button>
+                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>@DonTizi </Button>
                     </Link>
                 </ListItem>
-                <ListItem>
-                    <Link href='https://www.instagram.com/rayanemeldz' target="_blank">
-                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoInstagram}/>}>@RayaneMeldz </Button>
-                    </Link>
-                </ListItem>
-                <ListItem>
-                    <Link href='https://discordapp.com/users/RaykageDz#0683' target="_blank">
-                        <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoDiscord}/>}>@RayaneMeldz </Button>
-                    </Link>
-                </ListItem>
-            </List>
 
-            <SimpleGrid columns={[1,2,2]} gap={6}>
-                <GridItem href="https://www.youtube.com/watch?v=5qap5aO4i9A" title="Calming instrumental study/work playlist." thumbnail={thumbYoutube}></GridItem>
-            </SimpleGrid>
+
+            </List>
         </Section>
         
     </Container>)
