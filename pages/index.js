@@ -18,7 +18,7 @@ import thumbcraft from '../public/images/links/craftzdog.jpg'
 const Page = () => {
     return (<Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-            Hello, I'm an IT Support based in Montreal!
+            Hello, I'm an IT Developper based in Montreal!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -37,7 +37,7 @@ const Page = () => {
                Who am I?
             </Heading>
             <Paragraph>
-Rayane is an IT Support Specialist located in Montreal, possessing a fervent interest in information technology and emerging advancements. His innate aptitude for technology enables him to continuously progress, learn, and explore various aspects of the field. 
+Rayane is an IT Specialist located in Montreal, possessing a fervent interest in information technology and emerging advancements. His innate aptitude for technology enables him to continuously progress, learn, and explore various aspects of the field. 
                His areas of expertise include programming languages, cybersecurity, and network infrastructure.
         </Paragraph>
 
@@ -65,14 +65,14 @@ Rayane is an IT Support Specialist located in Montreal, possessing a fervent int
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>
-                Worked at CISSS Montérégie-Est (It Technician level II)
-            </BioSection>
-            <BioSection>
-                <BioYear>2022</BioYear>
-                Work at CN Investment Division as an It Support
+                Worked at CISSS Montérégie-Est (IT Specialist level II)
             </BioSection>
             <BioSection>
                 <BioYear>2022 - In progress..</BioYear>
+                Work at CN Investment Division as an IT Support
+            </BioSection>
+            <BioSection>
+                <BioYear>2023 - In progress..</BioYear>
                 Bachelor of Software engineering in ETS Canada
             </BioSection>
 
