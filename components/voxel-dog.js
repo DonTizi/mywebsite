@@ -16,9 +16,9 @@ const VoxelDog = () => {
   const [target] = useState(new THREE.Vector3(-0.01, 1.6, 0))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
-      20 * Math.sin(0.2 * Math.PI),
+      40 * Math.sin(0.2 * Math.PI),
       10,
-      20 * Math.cos(0.2 * Math.PI)
+      40 * Math.cos(0.2 * Math.PI)
     )
   )
   const [scene] = useState(new THREE.Scene())

@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import Website from '../public/images/works/website.jpg'
 import ai from '../public/images/works/ai.jpg'
 import migrai from '../public/images/works/migrai.jpg'
+import recall from '../public/images/works/recall.png'
 
 
 const Works = () => (
@@ -24,15 +25,21 @@ const Works = () => (
 
 
         <Section delay={0.1}>
-          <WorkGridItem id="NFT" thumbnail={ai} title="My AI assistant.">
+          <WorkGridItem id="NFT" thumbnail={ai} title="My AI assistant">
           My esteemed Virtual AI Assistant, adept at answering inquiries about my personality, professional career, and education.
           </WorkGridItem>
         </Section>
 
 
         <Section delay={0.1}>
-          <WorkGridItem id="MigrAI" thumbnail={migrai} title="Immigration AI.">
+          <WorkGridItem id="MigrAI" thumbnail={migrai} title="Immigration AI">
           MigrAI: Your Canadian Immigration solver.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="RecallAI" thumbnail={recall} title="Recall">
+          Recall: Your Artificial Memory.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
