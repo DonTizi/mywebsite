@@ -5,26 +5,26 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="MigrAI">
+  <Layout title="TireSwift">
     <Container>
       <Title>
-        MigrAI <Badge>July 2023 - Sept 2023</Badge>
+        TireSwift <Badge>Jan 2024</Badge>
       </Title>
       <P>
-        A software providing three tools to assist individuals with the Canadian immigration process, offering 24/7 guidance for a seamless and accessible experience.
+        A web application utilizing ClerkJS for authentication and a Python API with a reservation algorithm to optimize schedules. The application allows administrators to log in and access tailored schedules.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Features</Meta>
-          <span>Immigration guidance, 24/7 assistance, Multi-tool support</span>
+          <span>Authentication, Reservation system, Schedule optimization</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.js, React.js, TypeScript, OpenAI, SQL, JavaScript</span>
+          <span>Python, Flask, Tailwind CSS, Next.js, React.js, TypeScript, SQL</span>
         </ListItem>
         <ListItem>
-          <Meta>Techniques</Meta>
-          <span>Artificial Intelligence, API Development, Finetuning, Embedding, Multi-Factor Authentication</span>
+          <Meta>Security</Meta>
+          <span>Multi-Factor Authentication, Admin controls</span>
         </ListItem>
       </List>
 
@@ -34,4 +34,4 @@ const Work = () => (
 )
 
 export default Work
-export { getServerSideProps } from '../../components/chakra'
+export { getServerSideProps } from '../../components/chakra' 

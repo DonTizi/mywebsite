@@ -5,26 +5,26 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="MigrAI">
+  <Layout title="Tricots Melbouci">
     <Container>
       <Title>
-        MigrAI <Badge>July 2023 - Sept 2023</Badge>
+        Tricots Melbouci <Badge>Jan 2024 - Mar 2024</Badge>
       </Title>
       <P>
-        A software providing three tools to assist individuals with the Canadian immigration process, offering 24/7 guidance for a seamless and accessible experience.
+        Website for my family textile company in Montreal, featuring a dynamic and visually appealing landing page. Built with modern technologies like Next.js, React, TypeScript, Tailwind CSS, and Three.js.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Features</Meta>
-          <span>Immigration guidance, 24/7 assistance, Multi-tool support</span>
+          <span>Dynamic landing page, Visual design, Company showcase</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.js, React.js, TypeScript, OpenAI, SQL, JavaScript</span>
+          <span>Next.js, React.js, JavaScript, HTML, Tailwind CSS, Three.js</span>
         </ListItem>
         <ListItem>
-          <Meta>Techniques</Meta>
-          <span>Artificial Intelligence, API Development, Finetuning, Embedding, Multi-Factor Authentication</span>
+          <Meta>Industry</Meta>
+          <span>Textile, Family Business, E-commerce</span>
         </ListItem>
       </List>
 
@@ -34,4 +34,4 @@ const Work = () => (
 )
 
 export default Work
-export { getServerSideProps } from '../../components/chakra'
+export { getServerSideProps } from '../../components/chakra' 

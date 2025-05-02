@@ -18,7 +18,7 @@ import thumbcraft from '../public/images/links/craftzdog.jpg'
 const Page = () => {
     return (<Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-            Hello, I'm an IT Developper based in Montreal!
+            Hello, I'm a AI Developer & Software Engineer based in Montreal!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -26,10 +26,20 @@ const Page = () => {
                 <Heading as="h2" variant='page-title'>
                     Melbouci E. Rayane
                 </Heading>
-            <p>IT Support( IT / Developper / Designer)</p>
+            <p>AI Developer (Data Engineer / AI Developer / BI Specialist)</p>
             </Box>
            <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md: 6}} align="center">
-               <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/rayane.jpg" alt="Profile Image"/>
+               <Image 
+                borderColor="whiteAlpha.800" 
+                borderWidth={2} 
+                borderStyle="solid" 
+                boxSize="100px"
+                display="inline-block" 
+                borderRadius="full" 
+                src="/images/rayane.jpg" 
+                alt="Profile Image"
+                objectFit="cover"
+               />
                </Box> 
         </Box>
         <Section delay={0.1}>
@@ -37,8 +47,7 @@ const Page = () => {
                Who am I?
             </Heading>
             <Paragraph>
-Rayane is an IT Specialist located in Montreal, possessing a fervent interest in information technology and emerging advancements. His innate aptitude for technology enables him to continuously progress, learn, and explore various aspects of the field. 
-               His areas of expertise include programming languages, cybersecurity, and network infrastructure.
+Rayane is a Business Intelligence Developer at CN Investment Division with expertise in AI solutions and data infrastructure. He possesses a fervent interest in artificial intelligence, data engineering, and emerging technologies. His technical skills include Python, SQL, PyTorch, HuggingFace, and working with cloud platforms like AWS, Azure, and Snowflake. He is currently pursuing a Bachelor's degree in Software Engineering at École De Technologie Supérieur.
         </Paragraph>
 
         <Box align="center" my={4}>
@@ -60,22 +69,44 @@ Rayane is an IT Specialist located in Montreal, possessing a fervent interest in
                 Born in Alger (الجزائر), Algeria.
             </BioSection>
             <BioSection>
-                <BioYear>2021</BioYear>
-                Completed the D.E.C in Computer network management
+                <BioYear>2022</BioYear>
+                Completed the D.E.C in Network And Security Architecture from Maisonneuve College
             </BioSection>
             <BioSection>
-                <BioYear>2021</BioYear>
-                Worked at CISSS Montérégie-Est (IT Specialist level II)
+                <BioYear>2021 - 2022</BioYear>
+                Worked at CISSS Montérégie-Est as IT Support Specialist
             </BioSection>
             <BioSection>
-                <BioYear>2022 - In progress..</BioYear>
-                Work at CN Investment Division as an IT Support
+                <BioYear>2022 - Present</BioYear>
+                Work at CN Investment Division as a Business Intelligence Developer
             </BioSection>
             <BioSection>
-                <BioYear>2023 - In progress..</BioYear>
-                Bachelor of Software engineering in ETS Canada
+                <BioYear>Expected 2027</BioYear>
+                Bachelor of Software Engineering at École De Technologie Supérieur (ETS)
             </BioSection>
 
+        </Section>
+
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                Skills
+            </Heading>
+            <BioSection>
+                <BioYear>AI/ML</BioYear>
+                PyTorch, HuggingFace, Numpy, Pandas, Scikit-Learn
+            </BioSection>
+            <BioSection>
+                <BioYear>Cloud</BioYear>
+                Snowflake, AWS, Azure
+            </BioSection>
+            <BioSection>
+                <BioYear>Programming</BioYear>
+                Python, SQL, Java, TypeScript, React, HTML & CSS
+            </BioSection>
+            <BioSection>
+                <BioYear>Math</BioYear>
+                Linear Algebra, Vector Calculus, Probability and Statistics
+            </BioSection>
         </Section>
 
         <Section delay={0.3}>
@@ -100,7 +131,7 @@ Rayane is an IT Specialist located in Montreal, possessing a fervent interest in
                     </Link>
                 </ListItem>
                 <ListItem>
-                    <Link href='https://twitter.com/E_melbou' target="_blank">
+                    <Link href='https://twitter.com/LeDonTizi' target="_blank">
                         <Button variant="ghost" colorSchene="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>@DonTizi </Button>
                     </Link>
                 </ListItem>
