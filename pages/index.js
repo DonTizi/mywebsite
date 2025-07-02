@@ -18,7 +18,7 @@ import thumbcraft from '../public/images/links/craftzdog.jpg'
 const Page = () => {
     return (<Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-            Hello, I'm a AI Developer & Software Engineer based in Montreal!
+            Hello, I&apos;m an AI & Machine Learning Engineer based in Montreal!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -26,7 +26,7 @@ const Page = () => {
                 <Heading as="h2" variant='page-title'>
                     Melbouci E. Rayane
                 </Heading>
-            <p>AI Developer (Data Engineer / AI Developer / BI Specialist)</p>
+            <p>AI & Machine Learning Engineer, Data Enablement</p>
             </Box>
            <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md: 6}} align="center">
                <Image 
@@ -47,7 +47,7 @@ const Page = () => {
                Who am I?
             </Heading>
             <Paragraph>
-Rayane is a Business Intelligence Developer at CN Investment Division with expertise in AI solutions and data infrastructure. He possesses a fervent interest in artificial intelligence, data engineering, and emerging technologies. His technical skills include Python, SQL, PyTorch, HuggingFace, and working with cloud platforms like AWS, Azure, and Snowflake. He is currently pursuing a Bachelor's degree in Software Engineering at École De Technologie Supérieur.
+Rayane has recently been promoted to AI & Machine Learning Engineer, Data Enablement at CN Investment Division (CNID). With expertise in AI solutions and data infrastructure, he has deepened his knowledge through various projects including predictive modeling and multi-agent architectures. He now contributes to the design, training, and deployment of advanced models that support business intelligence and data-driven decision-making initiatives. His technical skills include Python, SQL, PyTorch, HuggingFace, and working with cloud platforms like AWS, Azure, and Snowflake. He is currently pursuing a Bachelor&apos;s degree in Software Engineering at École De Technologie Supérieur.
         </Paragraph>
 
         <Box align="center" my={4}>
@@ -78,7 +78,7 @@ Rayane is a Business Intelligence Developer at CN Investment Division with exper
             </BioSection>
             <BioSection>
                 <BioYear>2022 - Present</BioYear>
-                Work at CN Investment Division as a Business Intelligence Developer
+                AI & Machine Learning Engineer, Data Enablement at CN Investment Division (CNID) - Promoted from Business Intelligence Developer
             </BioSection>
             <BioSection>
                 <BioYear>Expected 2027</BioYear>
